@@ -150,17 +150,35 @@ body {
   display: inline-block;
 }
 
-@media (max-width: 760px) {
-  
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    background-image: none;
+  }
 
-  .principal {
-    flex-direction: column;
-    display: flex;
- }
+  .container__imagem {
+    width: 50vw;
+  }
 
- .rodape{
-  width: auto;
-  display: inline-block;
- }
+  .container__caixa {
+    margin: 2em 2em;
+  }
 
+  .secundario {
+    margin: 0;
+    text-align: center;
+  }
+
+  .secundario__imagem {
+    width: 50vw;
+  }
+
+  .dispositivos__lista {
+    display: block;
+  }
+
+  .rodape__elementos {
+    display: block;
+    margin: 0;
+  }
 }
